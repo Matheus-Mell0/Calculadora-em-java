@@ -15,3 +15,6 @@ Calculadora desenvolvida em Java com o objetivo de praticar l√≥gica de programa√
 1. entre nos arquivos App.java 1 e Calculadora.java
 2. Compile o arquivo Java
 3. Execute!
+
+### Visual da calculadora
+![Calculadora em Java](img/Calculadora.java.png)
