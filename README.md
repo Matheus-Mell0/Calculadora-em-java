@@ -17,4 +17,4 @@ Calculadora desenvolvida em Java com o objetivo de praticar l√≥gica de programa√
 3. Execute!
 
 ### Visual da calculadora
-
+![Calculadora em Java](img/Calculadora.png)
