@@ -28,13 +28,11 @@ public class Calculadora {
     JPanel displayPanel = new JPanel();
     JPanel buttonsPanel = new JPanel();
 
-    //A+B, A-B, A*B, A/B
     String A = "0";
     String operator = null;
     String B = null;
 
     Calculadora() {
-        // frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
@@ -128,7 +126,7 @@ public class Calculadora {
                             displayLabel.setText(removeZeroDecimal(numDisplay));
                         }
                     }
-                    else { //digits or . 
+                    else {  
                         if (buttonValue == ".") {
                             if (!displayLabel.getText().contains(buttonValue)) {
                                 displayLabel.setText(displayLabel.getText() + buttonValue);
